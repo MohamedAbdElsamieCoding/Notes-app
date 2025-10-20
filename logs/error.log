@@ -1,0 +1,44 @@
+2025-10-20 02:24:21 , [31merror[39m , [31m70b4939f-0e37-4e96-9df6-feae4c566a20 Note validation failed: title: Path `title` is required. , POST , /api/notes[39m
+[31mValidationError: Note validation failed: title: Path `title` is required.[39m
+[31m    at Document.invalidate (D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3362:32)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3123:17[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\schemaType.js:1417:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)[39m 
+2025-10-20 02:24:21 , [31merror[39m , [31m[70b4939f-0e37-4e96-9df6-feae4c566a20] Completed -> POST /api/notes | Error (500) | 16ms[39m 
+2025-10-20 02:24:53 , [31merror[39m , [31mac0e760b-ad11-40f4-9a9c-f8942a9dc37c Cannot destructure property 'title' of 'req.body' as it is undefined. , POST , /api/notes[39m
+[31mTypeError: Cannot destructure property 'title' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/controllers/notes.controller.js:13:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:295:15[39m
+[31m    at processParams (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:582:12)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:291:5)[39m 
+2025-10-20 02:24:53 , [31merror[39m , [31m[ac0e760b-ad11-40f4-9a9c-f8942a9dc37c] Completed -> POST /api/notes | Error (500) | 3ms[39m 
+2025-10-20 03:58:41 , [31merror[39m , [31m[aa9134de-fe11-41c1-b0a1-a3e9c2099e58] Completed -> GET /api/users/register | Error (404) | 6ms[39m 
+2025-10-20 03:59:07 , [31merror[39m , [31m[7f98cbcd-c1ae-4312-9171-63dcec344787] Completed -> GET /api/users/register | Error (404) | 2ms[39m 
+2025-10-20 03:59:10 , [31merror[39m , [31m4160efc7-cca5-4dd5-837c-7b4d5d05129e User.create is not a constructor , POST , /api/users/register[39m
+[31mTypeError: User.create is not a constructor[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/controllers/users.controller.js:14:19[39m 
+2025-10-20 03:59:10 , [31merror[39m , [31m[4160efc7-cca5-4dd5-837c-7b4d5d05129e] Completed -> POST /api/users/register | Error (500) | 74ms[39m 
+2025-10-20 04:03:48 , [31merror[39m , [31m464c51bd-956d-4abf-a152-4d45cd1653ce E11000 duplicate key error collection: notesapi.users index: userName_1 dup key: { userName: "Mo-Amr" } , POST , /api/users/register[39m
+[31mMongoServerError: E11000 duplicate key error collection: notesapi.users index: userName_1 dup key: { userName: "Mo-Amr" }[39m
+[31m    at InsertOneOperation.handleOk (D:\NodeJS Course\learn\Notes-Api\node_modules\mongodb\lib\operations\insert.js:51:19)[39m
+[31m    at tryOperation (D:\NodeJS Course\learn\Notes-Api\node_modules\mongodb\lib\operations\execute_operation.js:214:34)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async executeOperation (D:\NodeJS Course\learn\Notes-Api\node_modules\mongodb\lib\operations\execute_operation.js:78:16)[39m
+[31m    at async Collection.insertOne (D:\NodeJS Course\learn\Notes-Api\node_modules\mongodb\lib\collection.js:154:16)[39m 
+2025-10-20 04:03:48 , [31merror[39m , [31m[464c51bd-956d-4abf-a152-4d45cd1653ce] Completed -> POST /api/users/register | Error (500) | 158ms[39m 
+2025-10-20 04:20:15 , [31merror[39m , [31m26b0d5bd-577d-4381-95a5-e551cba7cb6d newUser is not defined , POST , /api/users/login[39m
+[31mReferenceError: newUser is not defined[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/controllers/users.controller.js:41:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m 
+2025-10-20 04:20:15 , [31merror[39m , [31m[26b0d5bd-577d-4381-95a5-e551cba7cb6d] Completed -> POST /api/users/login | Error (500) | 87ms[39m 
+2025-10-20 04:20:25 , [31merror[39m , [31mcaaef0c7-68fa-45cc-842f-8e1fd939b9f9 newUser is not defined , POST , /api/users/login[39m
+[31mReferenceError: newUser is not defined[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/controllers/users.controller.js:41:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m 
+2025-10-20 04:20:25 , [31merror[39m , [31m[caaef0c7-68fa-45cc-842f-8e1fd939b9f9] Completed -> POST /api/users/login | Error (500) | 72ms[39m 

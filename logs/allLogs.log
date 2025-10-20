@@ -1,0 +1,59 @@
+2025-10-20 04:05:53 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-01.e20l7ns.mongodb.net[39m 
+2025-10-20 04:05:53 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:05:53 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:07:38 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-02.e20l7ns.mongodb.net[39m 
+2025-10-20 04:07:38 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:07:38 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:10:38 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-00.e20l7ns.mongodb.net[39m 
+2025-10-20 04:10:38 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:10:38 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:11:27 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-01.e20l7ns.mongodb.net[39m 
+2025-10-20 04:11:27 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:11:27 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:12:10 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-02.e20l7ns.mongodb.net[39m 
+2025-10-20 04:12:10 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:12:10 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:13:03 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-00.e20l7ns.mongodb.net[39m 
+2025-10-20 04:13:03 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:13:03 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:13:35 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-01.e20l7ns.mongodb.net[39m 
+2025-10-20 04:13:35 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:13:35 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:13:44 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-02.e20l7ns.mongodb.net[39m 
+2025-10-20 04:13:44 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:13:44 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:14:33 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-00.e20l7ns.mongodb.net[39m 
+2025-10-20 04:14:33 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:14:33 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:16:43 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-01.e20l7ns.mongodb.net[39m 
+2025-10-20 04:16:43 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:16:43 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:18:01 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-02.e20l7ns.mongodb.net[39m 
+2025-10-20 04:18:01 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:18:01 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:18:56 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-00.e20l7ns.mongodb.net[39m 
+2025-10-20 04:18:56 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:18:56 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:19:53 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-01.e20l7ns.mongodb.net[39m 
+2025-10-20 04:19:53 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:19:53 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:20:01 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-02.e20l7ns.mongodb.net[39m 
+2025-10-20 04:20:01 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:20:01 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:20:15 , [35mhttp[39m , [35m[26b0d5bd-577d-4381-95a5-e551cba7cb6d] incoming -> POST , /api/users/login from ::ffff:127.0.0.1[39m 
+2025-10-20 04:20:15 , [31merror[39m , [31m26b0d5bd-577d-4381-95a5-e551cba7cb6d newUser is not defined , POST , /api/users/login[39m
+[31mReferenceError: newUser is not defined[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/controllers/users.controller.js:41:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m 
+2025-10-20 04:20:15 , [31merror[39m , [31m[26b0d5bd-577d-4381-95a5-e551cba7cb6d] Completed -> POST /api/users/login | Error (500) | 87ms[39m 
+2025-10-20 04:20:25 , [35mhttp[39m , [35m[caaef0c7-68fa-45cc-842f-8e1fd939b9f9] incoming -> POST , /api/users/login from ::ffff:127.0.0.1[39m 
+2025-10-20 04:20:25 , [31merror[39m , [31mcaaef0c7-68fa-45cc-842f-8e1fd939b9f9 newUser is not defined , POST , /api/users/login[39m
+[31mReferenceError: newUser is not defined[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/controllers/users.controller.js:41:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m 
+2025-10-20 04:20:25 , [31merror[39m , [31m[caaef0c7-68fa-45cc-842f-8e1fd939b9f9] Completed -> POST /api/users/login | Error (500) | 72ms[39m 
+2025-10-20 04:21:58 , [32minfo[39m , [32mDatabase is connected ac-k8rtfkd-shard-00-00.e20l7ns.mongodb.net[39m 
+2025-10-20 04:21:58 , [32minfo[39m , [32mServer is running on port 5000[39m 
+2025-10-20 04:21:58 , [32minfo[39m , [32mEnvironment : development[39m 
+2025-10-20 04:22:03 , [35mhttp[39m , [35m[3c7cad0c-b4c6-4fa0-adc1-579daa6b1f67] incoming -> POST , /api/users/login from ::ffff:127.0.0.1[39m 
+2025-10-20 04:22:04 , [35mhttp[39m , [35m[3c7cad0c-b4c6-4fa0-adc1-579daa6b1f67] Completed -> POST /api/users/login | Success (200) | 173ms[39m 

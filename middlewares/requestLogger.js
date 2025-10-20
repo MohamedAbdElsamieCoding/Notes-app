@@ -1,4 +1,4 @@
-import logger from "../utils/logger.js";
+import logger from "../config/logger.js";
 import { randomUUID } from "crypto";
 import onFinished from "on-finished";
 import httpStatusText from "../utils/httpStatusText.js";
