@@ -7,14 +7,15 @@ import generateJwt from "../utils/generateJwt.js";
 import bcrypt from "bcrypt";
 
 const register = asyncWrapper(async (req, res, next) => {
-  const { userName, email, password } = req.body;
-  if (!userName || !email || !password)
+  const { userName, email, password, role } = req.body;
+  if (!userName || !email || !password || !role)
     return next(new AppError("Fields are required", 400, httpStatusText.ERROR));
   const hashedPassword = await bcrypt.hash(password, 10);
   const newUser = await User.create({
     userName,
     email,
     password: hashedPassword,
+    role: role.toUpperCase(),
   });
   const token = generateJwt({
     email: newUser.email,

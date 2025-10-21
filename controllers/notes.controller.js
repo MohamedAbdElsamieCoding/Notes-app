@@ -51,7 +51,12 @@ const deleteNote = asyncWrapper(async (req, res, next) => {
   const note = await Note.findByIdAndDelete(id);
   if (!note)
     return next(new AppError("Note not found", 400, httpStatusText.ERROR));
-  res.status(200).json({ status: httpStatusText.SUCCESS });
+  res
+    .status(200)
+    .json({
+      status: httpStatusText.SUCCESS,
+      data: "Note deleted successfully",
+    });
 });
 
 export default {

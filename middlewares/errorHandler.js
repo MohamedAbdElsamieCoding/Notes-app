@@ -1,6 +1,8 @@
 import logger from "../config/logger.js";
+import httpStatusText from "../utils/httpStatusText.js";
 export const errorHandler = (err, req, res, next) => {
   const statusCode = err.statusCode || 500;
+  const statusText = err.statusText || httpStatusText.ERROR;
   logger.error(
     `${req.id || "no id"} ${err.message} , ${req.method} , ${
       req.originalUrl
@@ -8,7 +10,7 @@ export const errorHandler = (err, req, res, next) => {
   );
 
   res.status(statusCode).json({
-    status: "error",
+    status: statusText,
     message: err.message || "Something went wrong",
   });
 };

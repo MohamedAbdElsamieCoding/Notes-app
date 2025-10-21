@@ -42,3 +42,195 @@
 [31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/controllers/users.controller.js:41:11[39m
 [31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m 
 2025-10-20 04:20:25 , [31merror[39m , [31m[caaef0c7-68fa-45cc-842f-8e1fd939b9f9] Completed -> POST /api/users/login | Error (500) | 72ms[39m 
+2025-10-21 06:57:09 , [31merror[39m , [31m3b944bc1-957b-4f17-8bf8-14c2d2b1b312 token is required , POST , /api/notes[39m
+[31mError: token is required[39m
+[31m    at verifyToken (file:///D:/NodeJS%20Course/learn/Notes-Api/middlewares/verifyToken.js:9:19)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:295:15[39m
+[31m    at processParams (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:582:12)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:291:5)[39m
+[31m    at Function.handle (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:186:3)[39m 
+2025-10-21 06:57:09 , [31merror[39m , [31m[3b944bc1-957b-4f17-8bf8-14c2d2b1b312] Completed -> POST /api/notes | Error (401) | 9ms[39m 
+2025-10-21 06:59:36 , [31merror[39m , [31m[d49bb75b-fa40-4747-b315-45818a42c781] Completed -> GET /api/users/register | Error (404) | 2ms[39m 
+2025-10-21 07:00:06 , [31merror[39m , [31m6b1f5a0d-ce93-4f3c-a847-fb8ef2a1e7f5 Cannot destructure property 'userName' of 'req.body' as it is undefined. , POST , /api/users/register[39m
+[31mTypeError: Cannot destructure property 'userName' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/controllers/users.controller.js:10:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:295:15[39m
+[31m    at processParams (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:582:12)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:291:5)[39m 
+2025-10-21 07:00:06 , [31merror[39m , [31m[6b1f5a0d-ce93-4f3c-a847-fb8ef2a1e7f5] Completed -> POST /api/users/register | Error (500) | 3ms[39m 
+2025-10-21 07:01:09 , [31merror[39m , [31m0b3fc2e7-f65c-4efb-a571-c2caf438df47 Cannot destructure property 'userName' of 'req.body' as it is undefined. , POST , /api/users/register[39m
+[31mTypeError: Cannot destructure property 'userName' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/controllers/users.controller.js:10:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:295:15[39m
+[31m    at processParams (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:582:12)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:291:5)[39m 
+2025-10-21 07:01:09 , [31merror[39m , [31m[0b3fc2e7-f65c-4efb-a571-c2caf438df47] Completed -> POST /api/users/register | Error (500) | 2ms[39m 
+2025-10-21 07:01:10 , [31merror[39m , [31m1a1751f8-2ce4-45f3-8be1-94cba0ae93d3 Cannot destructure property 'userName' of 'req.body' as it is undefined. , POST , /api/users/register[39m
+[31mTypeError: Cannot destructure property 'userName' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/controllers/users.controller.js:10:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:295:15[39m
+[31m    at processParams (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:582:12)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:291:5)[39m 
+2025-10-21 07:01:10 , [31merror[39m , [31m[1a1751f8-2ce4-45f3-8be1-94cba0ae93d3] Completed -> POST /api/users/register | Error (500) | 3ms[39m 
+2025-10-21 07:02:29 , [31merror[39m , [31m204d4e2d-1ccf-4d06-b102-4f3e05e665f7 Cannot destructure property 'userName' of 'req.body' as it is undefined. , POST , /api/users/register[39m
+[31mTypeError: Cannot destructure property 'userName' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/controllers/users.controller.js:10:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:295:15[39m
+[31m    at processParams (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:582:12)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:291:5)[39m 
+2025-10-21 07:02:29 , [31merror[39m , [31m[204d4e2d-1ccf-4d06-b102-4f3e05e665f7] Completed -> POST /api/users/register | Error (500) | 7ms[39m 
+2025-10-21 07:02:30 , [31merror[39m , [31m3524d57d-dd37-4c76-88b2-5b7a81fd6181 Cannot destructure property 'userName' of 'req.body' as it is undefined. , POST , /api/users/register[39m
+[31mTypeError: Cannot destructure property 'userName' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/controllers/users.controller.js:10:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:295:15[39m
+[31m    at processParams (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:582:12)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:291:5)[39m 
+2025-10-21 07:02:30 , [31merror[39m , [31m[3524d57d-dd37-4c76-88b2-5b7a81fd6181] Completed -> POST /api/users/register | Error (500) | 4ms[39m 
+2025-10-21 07:03:41 , [31merror[39m , [31m1a1927b3-745b-4cea-b51e-1d172523ecf2 Cannot destructure property 'userName' of 'req.body' as it is undefined. , POST , /api/users/register[39m
+[31mTypeError: Cannot destructure property 'userName' of 'req.body' as it is undefined.[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/controllers/users.controller.js:10:11[39m
+[31m    at file:///D:/NodeJS%20Course/learn/Notes-Api/middlewares/asyncWrapper.js:3:5[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (D:\NodeJS Course\learn\Notes-Api\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:295:15[39m
+[31m    at processParams (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:582:12)[39m
+[31m    at next (D:\NodeJS Course\learn\Notes-Api\node_modules\router\index.js:291:5)[39m 
+2025-10-21 07:03:41 , [31merror[39m , [31m[1a1927b3-745b-4cea-b51e-1d172523ecf2] Completed -> POST /api/users/register | Error (500) | 2ms[39m 
+2025-10-21 07:06:38 , [31merror[39m , [31m2ae047d2-2895-411b-93b8-d5d07a259ee9 E11000 duplicate key error collection: notesapi.users index: email_1 dup key: { email: "mo@amr.com" } , POST , /api/users/register[39m
+[31mMongoServerError: E11000 duplicate key error collection: notesapi.users index: email_1 dup key: { email: "mo@amr.com" }[39m
+[31m    at InsertOneOperation.handleOk (D:\NodeJS Course\learn\Notes-Api\node_modules\mongodb\lib\operations\insert.js:51:19)[39m
+[31m    at tryOperation (D:\NodeJS Course\learn\Notes-Api\node_modules\mongodb\lib\operations\execute_operation.js:214:34)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async executeOperation (D:\NodeJS Course\learn\Notes-Api\node_modules\mongodb\lib\operations\execute_operation.js:78:16)[39m
+[31m    at async Collection.insertOne (D:\NodeJS Course\learn\Notes-Api\node_modules\mongodb\lib\collection.js:154:16)[39m 
+2025-10-21 07:06:38 , [31merror[39m , [31m[2ae047d2-2895-411b-93b8-d5d07a259ee9] Completed -> POST /api/users/register | Error (500) | 167ms[39m 
+2025-10-21 07:06:49 , [31merror[39m , [31mad44b449-1e21-4317-aba0-470548a69014 E11000 duplicate key error collection: notesapi.users index: userName_1 dup key: { userName: "Mo1-Amr" } , POST , /api/users/register[39m
+[31mMongoServerError: E11000 duplicate key error collection: notesapi.users index: userName_1 dup key: { userName: "Mo1-Amr" }[39m
+[31m    at InsertOneOperation.handleOk (D:\NodeJS Course\learn\Notes-Api\node_modules\mongodb\lib\operations\insert.js:51:19)[39m
+[31m    at tryOperation (D:\NodeJS Course\learn\Notes-Api\node_modules\mongodb\lib\operations\execute_operation.js:214:34)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async executeOperation (D:\NodeJS Course\learn\Notes-Api\node_modules\mongodb\lib\operations\execute_operation.js:78:16)[39m
+[31m    at async Collection.insertOne (D:\NodeJS Course\learn\Notes-Api\node_modules\mongodb\lib\collection.js:154:16)[39m 
+2025-10-21 07:06:49 , [31merror[39m , [31m[ad44b449-1e21-4317-aba0-470548a69014] Completed -> POST /api/users/register | Error (500) | 144ms[39m 
+2025-10-21 07:09:05 , [31merror[39m , [31mdb0f2265-58e0-486d-bc73-6461f50cd1c1 User validation failed: role: Path `role` is required. , POST , /api/users/register[39m
+[31mValidationError: User validation failed: role: Path `role` is required.[39m
+[31m    at Document.invalidate (D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3362:32)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3123:17[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\schemaType.js:1417:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)[39m 
+2025-10-21 07:09:05 , [31merror[39m , [31m[db0f2265-58e0-486d-bc73-6461f50cd1c1] Completed -> POST /api/users/register | Error (500) | 86ms[39m 
+2025-10-21 07:10:08 , [31merror[39m , [31m1e64f205-af46-45b9-bc35-8433df50edca User validation failed: role: Path `role` is required. , POST , /api/users/register[39m
+[31mValidationError: User validation failed: role: Path `role` is required.[39m
+[31m    at Document.invalidate (D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3362:32)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3123:17[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\schemaType.js:1417:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)[39m 
+2025-10-21 07:10:08 , [31merror[39m , [31m[1e64f205-af46-45b9-bc35-8433df50edca] Completed -> POST /api/users/register | Error (500) | 86ms[39m 
+2025-10-21 07:10:09 , [31merror[39m , [31mf9848c51-7cf3-499b-b051-b108fac66c9b User validation failed: role: Path `role` is required. , POST , /api/users/register[39m
+[31mValidationError: User validation failed: role: Path `role` is required.[39m
+[31m    at Document.invalidate (D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3362:32)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3123:17[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\schemaType.js:1417:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)[39m 
+2025-10-21 07:10:09 , [31merror[39m , [31m[f9848c51-7cf3-499b-b051-b108fac66c9b] Completed -> POST /api/users/register | Error (500) | 72ms[39m 
+2025-10-21 07:10:10 , [31merror[39m , [31m6104fbeb-1b4a-45f3-aba6-40a4f63f998c User validation failed: role: Path `role` is required. , POST , /api/users/register[39m
+[31mValidationError: User validation failed: role: Path `role` is required.[39m
+[31m    at Document.invalidate (D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3362:32)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3123:17[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\schemaType.js:1417:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)[39m 
+2025-10-21 07:10:10 , [31merror[39m , [31m[6104fbeb-1b4a-45f3-aba6-40a4f63f998c] Completed -> POST /api/users/register | Error (500) | 72ms[39m 
+2025-10-21 07:10:31 , [31merror[39m , [31m50bea6fb-e857-4b17-b4de-fe63db1074bc User validation failed: role: Path `role` is required. , POST , /api/users/register[39m
+[31mValidationError: User validation failed: role: Path `role` is required.[39m
+[31m    at Document.invalidate (D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3362:32)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3123:17[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\schemaType.js:1417:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)[39m 
+2025-10-21 07:10:31 , [31merror[39m , [31m[50bea6fb-e857-4b17-b4de-fe63db1074bc] Completed -> POST /api/users/register | Error (500) | 99ms[39m 
+2025-10-21 07:10:32 , [31merror[39m , [31m2a924e98-b6b4-46dc-84e0-85bfc6d08cf1 User validation failed: role: Path `role` is required. , POST , /api/users/register[39m
+[31mValidationError: User validation failed: role: Path `role` is required.[39m
+[31m    at Document.invalidate (D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3362:32)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3123:17[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\schemaType.js:1417:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)[39m 
+2025-10-21 07:10:32 , [31merror[39m , [31m[2a924e98-b6b4-46dc-84e0-85bfc6d08cf1] Completed -> POST /api/users/register | Error (500) | 74ms[39m 
+2025-10-21 07:10:33 , [31merror[39m , [31m255c4f58-3c1c-4975-b2b1-e9bf3c9db360 User validation failed: role: Path `role` is required. , POST , /api/users/register[39m
+[31mValidationError: User validation failed: role: Path `role` is required.[39m
+[31m    at Document.invalidate (D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3362:32)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3123:17[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\schemaType.js:1417:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)[39m 
+2025-10-21 07:10:33 , [31merror[39m , [31m[255c4f58-3c1c-4975-b2b1-e9bf3c9db360] Completed -> POST /api/users/register | Error (500) | 72ms[39m 
+2025-10-21 07:12:53 , [31merror[39m , [31md65f6026-ad08-4753-8a60-3d81b3534d32 User validation failed: role: `Admin` is not a valid enum value for path `role`. , POST , /api/users/register[39m
+[31mValidationError: User validation failed: role: `Admin` is not a valid enum value for path `role`.[39m
+[31m    at Document.invalidate (D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3362:32)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3123:17[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\schemaType.js:1417:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)[39m 
+2025-10-21 07:12:53 , [31merror[39m , [31m[d65f6026-ad08-4753-8a60-3d81b3534d32] Completed -> POST /api/users/register | Error (500) | 87ms[39m 
+2025-10-21 07:15:20 , [31merror[39m , [31mfbee3f61-ecc9-4244-80e3-009bbeb7f6ab User validation failed: role: `Admin` is not a valid enum value for path `role`. , POST , /api/users/register[39m
+[31mValidationError: User validation failed: role: `Admin` is not a valid enum value for path `role`.[39m
+[31m    at Document.invalidate (D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3362:32)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3123:17[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\schemaType.js:1417:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)[39m 
+2025-10-21 07:15:20 , [31merror[39m , [31m[fbee3f61-ecc9-4244-80e3-009bbeb7f6ab] Completed -> POST /api/users/register | Error (500) | 88ms[39m 
+2025-10-21 07:17:34 , [31merror[39m , [31mcbd8d9de-35b7-470b-af1a-907ab2c6022a User validation failed: role: `Admin` is not a valid enum value for path `role`. , POST , /api/users/register[39m
+[31mValidationError: User validation failed: role: `Admin` is not a valid enum value for path `role`.[39m
+[31m    at Document.invalidate (D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3362:32)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3123:17[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\schemaType.js:1417:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)[39m 
+2025-10-21 07:17:34 , [31merror[39m , [31m[cbd8d9de-35b7-470b-af1a-907ab2c6022a] Completed -> POST /api/users/register | Error (500) | 88ms[39m 
+2025-10-21 07:17:35 , [31merror[39m , [31mf83237d1-909d-464d-98fc-c31616496c45 User validation failed: role: `Admin` is not a valid enum value for path `role`. , POST , /api/users/register[39m
+[31mValidationError: User validation failed: role: `Admin` is not a valid enum value for path `role`.[39m
+[31m    at Document.invalidate (D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3362:32)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3123:17[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\schemaType.js:1417:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)[39m 
+2025-10-21 07:17:35 , [31merror[39m , [31m[f83237d1-909d-464d-98fc-c31616496c45] Completed -> POST /api/users/register | Error (500) | 74ms[39m 
+2025-10-21 07:17:36 , [31merror[39m , [31m472a08b7-2e49-4a3c-96d1-fc8ed5460ff6 User validation failed: role: `Admin` is not a valid enum value for path `role`. , POST , /api/users/register[39m
+[31mValidationError: User validation failed: role: `Admin` is not a valid enum value for path `role`.[39m
+[31m    at Document.invalidate (D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3362:32)[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\document.js:3123:17[39m
+[31m    at D:\NodeJS Course\learn\Notes-Api\node_modules\mongoose\lib\schemaType.js:1417:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)[39m 
+2025-10-21 07:17:36 , [31merror[39m , [31m[472a08b7-2e49-4a3c-96d1-fc8ed5460ff6] Completed -> POST /api/users/register | Error (500) | 73ms[39m 

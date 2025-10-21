@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import validator from "validator";
+import userRoles from "../utils/userRoles.js";
 
 const userSchema = new mongoose.Schema(
   {
@@ -23,6 +24,12 @@ const userSchema = new mongoose.Schema(
     },
     token: {
       type: String,
+    },
+    role: {
+      type: String,
+      required: true,
+      enum: [userRoles.ADMIN, userRoles.MANAGER, userRoles.USER],
+      default: userRoles.USER,
     },
   },
   { versionKey: false, timestamps: true }
